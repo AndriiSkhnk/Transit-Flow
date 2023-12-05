@@ -522,3 +522,123 @@ button {
 .feedback__stars {
 	margin-top: 32px;
 }
+
+
+
+
+/* Pricing ------------------------------------------- */
+
+
+.Pricing {
+	margin-bottom: 100px;
+}
+
+.pricing__comment {
+	text-align: center;
+}
+
+.pricing__tittle {
+	text-align: center;
+	margin-top: 15px;
+}
+
+.pricing__plans {
+	margin-top: 64px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.plan {
+	color: #1C1F35;
+	padding: 61px 50px;
+	background-color: #F4F4F4;
+	max-width: 380px;
+	text-align: center;
+}
+
+.plan__tittle {
+	font-family: 'Rubik', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.plan__price {
+	display: flex;
+	justify-content: center;
+	margin-top: 38px;
+}
+
+.plan__price_number {
+	font-family: 'Rubik', sans-serif;
+	font-size: 85px;
+	font-weight: 600;
+}
+
+.plan__price_month {
+	font-family: 'Rubik', sans-serif;
+	font-size: 22px;
+	font-weight: 500;
+	margin-top: 56px;
+}
+
+.plan__info {
+	margin-top: 50px;
+}
+
+.plan__line {
+	border-top: 1px solid #D6D6D6;
+}
+
+.plan__info p{
+	padding: 17px 0px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+}
+
+.plan__button {
+	margin-top: 50px;
+}
+
+.middle__plan{
+	background-color: #091242;
+	color: #ffffff;
+	padding: 61px 50px;
+	max-width: 380px;
+	text-align: center;
+}
+
+.plan__line_middle{
+	border-top: 1px solid #1F2A69;
+}
+
+.middle__button {
+	background-image: linear-gradient(to right, #FFB629, #FFDA56, #FFD7A6);
+    text-decoration: none;
+    padding: 19px 54px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #23212A;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.middle__button::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    bottom: -50px;
+    right: -35px;
+    transition: .5s linear;
+    z-index: -1;
+}
+
+.middle__button:hover::before {
+    width: 300px;
+    height: 200px;
+}
