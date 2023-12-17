@@ -27,6 +27,10 @@ body{
 	margin: 0 auto;
 }
 
+.flex {
+    display: flex;
+}
+
 
 .tittle {
 	font-family: 'Rubik', sans-serif;
@@ -72,7 +76,7 @@ body{
 
 
 .header__bg {
-	background-image: url("../images/Aboutbg.png");
+	background-image: url("../images/p-bg.png");
 }
 
 .header__nav {
@@ -151,12 +155,12 @@ body{
 }
 
 
-/* Header Text ----------------------------------------- */
+/* Header Text --------------------------------------*/
 
 
 .header__text {
-	margin-top: 150px;
-	padding-bottom: 170px;
+	margin-top: 141px;
+	padding-bottom: 176px;
 }
 
 .comment{
@@ -173,362 +177,17 @@ body{
 	font-size: 60px;
 	font-weight: 700;
 	margin-top: 8px;
-	max-width: 592px;
+	max-width: 428px;
 	margin-top: 8px;
 	color: #fff;
 }
-
-
-
-
-/* Overview -------------------------------------------- */
-
-
-
-.company__overview {
-	margin-top: 103px;
-	margin-bottom: 130px;
-}
-
-.flex {
-	display: flex;
-}
-
-.scania__img {
-	margin-left: -270px;
-}
-
-.courier__img {
-	position: absolute;
-	margin-left: -228px;
-    margin-top: 270px;
-}
-
-.overview__info {
-	margin: 47px 0px 0px 140px;
-}
-
-.overview__tittle {
-	margin-top: 15px;
-}
-
-.tittle {
-	font-family: 'Rubik', sans-serif;
-	font-size: 35px;
-	font-weight: 700;
-	margin-top: 8px;
-}
-
-.overview__text1 {
-	margin-top: 12px;
-	color: #666C89;
-}
-
-.approch__buttons {
-	margin-top: 19px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.approch__buttons button {
-	padding: 15px 38px;
-	font-size: 19px;
-	color: #1C1F35;
-}
-
-.approch__button {
-	transition: .2s linear;
-}
-
-.approch__active {
-	background-color: #FFB82B;
-}
-
-.approch__active p {
-	color: #fff;
-}
-
-.approch__button:hover {
-	background-color: #FFB82B;
-}
-
-.approch__button:hover p {
-	color: #fff;
-}
-
-button {
-	font-family: 'Krub', sans-serif;
-	border: none;
-	cursor: pointer;
-}
-
-.overview__text2 {
-	margin-top: 27px;
-	color: #666C89;
-}
-
-.overview__button {
-	margin-top: 35px;
-}
-
-.button__hover {
-	padding: 19px 54px;
-	background-color: #091242;
-	font-size: 16px;
-	color:#fff;
-	font-weight: 600;
-	position: relative;
-	border: none;
-	z-index: 2;
-	overflow: hidden;
-}
-
-.button__hover::before {
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: #1F2A69;
-    border-radius: 50%;
-    bottom: -50px;
-    right: -35px;
-    transition: .4s linear;
-    z-index: -1;
-}
-
-.button__hover:hover::before {
-    width: 300px;
-    height: 200px;
-}
-
-
-
-/* What We Do --------------------------------------- */
-
-
-
-.WhatWeDo {
-	padding: 108px 0px;
-	background-color: #F4F4F4;
-}
-
-.WhatWeDo__comment {
-	text-align: center;
-	color: #1C1F35;
-}
-
-.WhatWeDo__comment p {
-	background-color: #E8E8E8;
-}
-
-.WhatWeDo__tittle {
-	text-align: center;
-	margin-top: 15px;
-}
-
-.logistic__services {
-	margin-top: 55px;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	gap: 80px;
-}
-
-.service__tittle {
-	margin-top: 22px;
-	font-size: 25px;
-	font-weight: 400;
-}
-
-.service__text {
-	margin-top: 13px;
-	color: #666C89;
-	max-width: 270px;
-}
-
-.WhatWeDo__button {
-	margin-top: 55px;
-	padding: 19px 52px;
-	text-align: center;
-}
-
-
-
-/* Team ---------------------------------------------- */
-
-
-
-.team {
-	margin-top: 95px;
-	margin-bottom: 101px;
-}
-
-.team__comment {
-	text-align: center;
-}
-
-.team__tittle {
-	text-align: center;
-	margin-top: 16px;
-}
-
-.team__cards {
-	margin-top: 40px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.user__card {
-	width: 364px;
-	overflow: hidden;
-	background-color: #1C1F35;
-	position: relative;
-}
-
-.user__links {
-	position: relative;
-	float: right;
-	margin-top: -40px;
-	padding: 20px 16px;
-	background-image: linear-gradient(to right, #FFB629, #FFDA56, #FFD7A6);
-}
-
-.user__links a {
-	margin-left: 25px;
-	width: 23px;
-	height: 18px;
-}
-
-.user__links a:first-child {
-	margin-left: 0px;
-}
-
-.user__info {
-	/*margin-top: 42px;
-	margin-left: 34px;*/
-	padding: 42px 0px 20px 34px;
-}
-
-.user__name {
-	font-size: 20px;
-	font-weight: 500;
-	font-family: 'Rubik', sans-serif;
-	color: #fff;
-}
-
-.user__position {
-	font-size: 16px;
-	font-weight: 500;
-	margin-top: 2px;
-	color: #E1E1E1;
-}
-
-
-
-/* Customers Feedback -------------------------------- */
-
-
-
-.feedback {
-	margin: 100px 0px;
-	background-color: #F4F4F4;
-	padding: 98px 0px;
-}
-
-.feedback__tittle {
-	margin-top: 13px;
-}
-
-.feedback__buttons {
-	display: flex;
-	margin-top: 15px;
-}
-
-.right__btn {
-	margin-left: 10px;
-}
-
-.customer__say {
-	margin-top: 40px;
-	display: flex;
-}
-
-.customer__say__left {
-	padding: 62px 72px;
-	background-color: #F4F4F4;
-}
-
-.customer__say__right{
-	padding: 62px 72px;
-	background-color: #091242;
-}
-
-.customer__info {
-	display: flex;
-	align-items: center;
-}
-
-
-.customer__name__company {
-	margin-left: 10px;
-}
-
-.customer__name {
-	font-family: 'Rubik', sans-serif;
-	font-size: 20px;
-	font-weight: 600;
-	color: #091242;
-}
-
-.customer2__name {
-	font-family: 'Rubik', sans-serif;
-	font-size: 20px;
-	font-weight: 600;
-	color: #E0E0E0;
-}
-
-.customer__company {
-	font-size: 16px;
-	font-weight: 500;
-	color: #091242;
-	margin-top: 2px;
-}
-
-.customer2__company {
-	font-size: 16px;
-	font-weight: 500;
-	color: #E0E0E0;
-	margin-top: 2px;
-}
-
-.customer__comment{
-	font-size: 16px;
-	font-weight: 500;
-	font-style: italic;
-	color: #666C89;
-	margin-top: 24px;
-}
-
-.customer2__comment {
-	color: #E0E0E0;
-	font-size: 16px;
-	font-weight: 500;
-	font-style: italic;
-	margin-top: 24px;
-}
-
-.feedback__stars {
-	margin-top: 32px;
-}
-
-
 
 
 /* Pricing ------------------------------------------- */
 
 
 .Pricing {
-	margin-bottom: 100px;
+	margin: 100px 0px;
 }
 
 .pricing__comment {
@@ -641,144 +300,134 @@ button {
     height: 200px;
 }
 
-
-
-/* FAQ --------------------------------------------------*/
-
-
-.faq {
-	padding: 125px 0px;
-	background-color: #F4F4F4;
-}
-
-.faq__tittle {
-	max-width: 308px;
-	margin-top: 15px;
-}
-
-.faq__questions {
-	width: 681px;
-	margin-top: 50px;
-}
-
-.faq__block {
-	margin-top: 44px;
-}
-
-.block__question {
+.button__hover {
+	padding: 19px 54px;
+	background-color: #091242;
+	font-size: 16px;
+	color:#fff;
+	font-weight: 600;
+	position: relative;
+	border: none;
+	z-index: 2;
+	overflow: hidden;
 	cursor: pointer;
 }
 
-.block__question p{
-	font-family: 'Rubik', sans-serif;
-	font-size: 20px;
-	color: #1C1F35;
-}
-
-.block__question img {
-	width: 8px;
-	height: 16px;
-	margin-top: 5px;
-}
-
-.block__answer {
-	margin-top: 18px;
-	font-size: 16px;
-	font-weight: 500;
-	color: #666C89;
-}
-
-.hidden {
-	display: none;
-}
-
-.faq__rightside img {
-	margin-right: -360px;
-	position: relative;
-}
-
-.letsTalk {
-	position: absolute;
-	max-width: 448px;
-	padding: 52px 62px;
-	background-color: #091242;
-	color: #fff;
-	margin-top: -455px;
-    margin-left: -140px;
-}
-
-.letsTalk .comment {
-	background-color: #111C55;
-}
-
-.Talk__tittle {
-	margin-top: 23px;
-	font-family: 'Rubik', sans-serif;
-	font-size: 20px;
-	font-weight: 500;
-}
-
-.Talk__phone {
-	margin-top: 21px;
-	font-size: 16px;
-}
-
-.Talk__phone__text {
-	max-width: 153px;
-	margin-left: 80px;
-	margin-top: 12px;
-	color: #dbdbdb;
-}
-
-.Talk__button {
-	margin-top: 26px;
-}
-
-.Talk__button_button {
-	background-image: linear-gradient(to right, #FFB629, #FFDA56, #FFD7A6);
-    text-decoration: none;
-    padding: 19px 29px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #23212A;
-    position: relative;
-    border: none;
-    cursor: pointer;
-    z-index: 2;
-    overflow: hidden;
-}
-
-.Talk__button_button::before {
+.button__hover::before {
     content: "";
     position: absolute;
     width: 10px;
     height: 10px;
-    background-color: #fff;
+    background-color: #1F2A69;
     border-radius: 50%;
     bottom: -50px;
     right: -35px;
-    transition: .5s linear;
+    transition: .4s linear;
     z-index: -1;
 }
 
-.Talk__button_button:hover::before {
+.button__hover:hover::before {
     width: 300px;
     height: 200px;
 }
 
 
-/* Clients logo --------------------------------------*/
+
+/* Customers Feedback -------------------------------- */
 
 
-.clients__logo {
-	margin: 80px 0px;
+
+.feedback {
+	margin-top: 100px;
+	background-color: #F4F4F4;
+	padding: 98px 0px;
+}
+
+.feedback__tittle {
+	margin-top: 13px;
+}
+
+.feedback__buttons {
+	display: flex;
+	margin-top: 15px;
+}
+
+.right__btn {
+	margin-left: 10px;
+}
+
+.customer__say {
+	margin-top: 40px;
 	display: flex;
 }
 
-.clients__logo img{
-	width: 296px;
+.customer__say__left {
+	padding: 62px 72px;
+	background-color: #F4F4F4;
 }
 
+.customer__say__right{
+	padding: 62px 72px;
+	background-color: #091242;
+}
+
+.customer__info {
+	display: flex;
+	align-items: center;
+}
+
+
+.customer__name__company {
+	margin-left: 10px;
+}
+
+.customer__name {
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #091242;
+}
+
+.customer2__name {
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #E0E0E0;
+}
+
+.customer__company {
+	font-size: 16px;
+	font-weight: 500;
+	color: #091242;
+	margin-top: 2px;
+}
+
+.customer2__company {
+	font-size: 16px;
+	font-weight: 500;
+	color: #E0E0E0;
+	margin-top: 2px;
+}
+
+.customer__comment{
+	font-size: 16px;
+	font-weight: 500;
+	font-style: italic;
+	color: #666C89;
+	margin-top: 24px;
+}
+
+.customer2__comment {
+	color: #E0E0E0;
+	font-size: 16px;
+	font-weight: 500;
+	font-style: italic;
+	margin-top: 24px;
+}
+
+.feedback__stars {
+	margin-top: 32px;
+}
 
 
 /*footer ---------------------------------------------*/
