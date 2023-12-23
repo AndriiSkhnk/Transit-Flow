@@ -946,6 +946,11 @@ input::placeholder, textarea::placeholder{
 	list-style-position: inside;
 }
 
+
+.block__list li {
+    margin-top: 5px;
+}
+
 .blog__link {
 	margin-top: 69px;
 	text-align: center;
