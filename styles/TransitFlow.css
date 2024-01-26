@@ -105,6 +105,63 @@ body{
 	margin-right: 24px;
 }
 
+/* ------------------------------------------ */
+
+.nav__menu a:hover {
+	color: #091242;
+	transition: .2s linear;
+}
+
+
+.menu-pages {
+	position: relative;
+	cursor: pointer;
+	padding-top: 20px;
+	transition: .2s linear;
+}
+
+.menu-pages a {
+	border-right: none;
+	height: 100%;
+}
+
+.menu-pages p {
+	border-right: rgba(255, 255, 255, .3) 1px solid;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+.menu-dropdown {
+	position: absolute;
+	list-style: none;
+	background-color: rgba(9, 18, 66, .4);
+	display: none;
+	z-index: 2;
+}
+
+
+.menu-dropdown li {
+	padding: 10px 20px;
+}
+
+.menu-dropdown li:hover {
+	background-color: rgba(9, 18, 66, .6);
+	color: #fff;
+}
+
+.menu-dropdown a{
+	border-right: none;
+	padding: 0px;
+}
+
+.nav__menu .menu-pages:hover .menu-dropdown{
+	display: block;
+	transition: .2s linear;
+}
+
+
+/* ---------------------------------------------- */
 .nav__btn {
 	background-color: #fff;
 	padding: 28px 52px;
